@@ -6,9 +6,9 @@ terraform {
     }
   }
 }
-# test here number 2
+# test here number 3
 resource "random_pet" "animal" {
-  length    = 4
+  length    = 5
   separator = "-"
 }
 
