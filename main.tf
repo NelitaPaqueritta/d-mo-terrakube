@@ -18,7 +18,7 @@ terraform {
 
 # test here number 3
 resource "random_pet" "animal" {
-  length    = 5
+  length    = 2
   separator = "-"
 }
 
